@@ -10,12 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^4.19.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.19.0",
+    "@tensorflow/tfjs-core": "^4.19.0",
     "@tensorflow/tfjs-tflite": "^0.0.1-alpha.10",
+    "ramda": "^0.30.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-webcam": "^7.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.2",
+    "@types/ramda": "^0.30.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
